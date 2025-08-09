@@ -1,0 +1,19 @@
+{
+  "name": "collegecompanion",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend,expo -c blue,green,magenta \"npm --prefix path2ivy-backend run dev\" \"npm --prefix path2ivy-frontend run dev\" \"CI=1 npm --prefix Path2IvyMobile start\"",
+    "dev:web": "concurrently -n backend,frontend -c blue,green \"npm --prefix path2ivy-backend run dev\" \"npm --prefix path2ivy-frontend run dev\"",
+    "dev:mobile": "CI=1 npm --prefix Path2IvyMobile start",
+    "start:backend": "npm --prefix path2ivy-backend run dev",
+    "start:frontend": "npm --prefix path2ivy-frontend run dev",
+    "start:mobile": "CI=1 npm --prefix Path2IvyMobile start",
+    "stop": "pkill -f nodemon || true && pkill -f \"next dev\" || true && pkill -f expo || true && pkill -f metro || true"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
+
+
