@@ -1,0 +1,13 @@
+name = "path2ivy-backend"
+main = "dist/index.js"
+compatibility_date = "2025-01-01"
+nodejs_compat = true
+
+[vars]
+JWT_AUDIENCE = "path2ivy"
+
+[triggers]
+# Example cron for background agent
+# crons = ["*/30 * * * *"]
+
+

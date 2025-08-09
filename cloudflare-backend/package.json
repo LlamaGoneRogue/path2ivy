@@ -1,0 +1,22 @@
+{
+  "name": "path2ivy-cloudflare-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "node ./scripts/build.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.6.11"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250303.0",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.103.2"
+  }
+}
+
+
