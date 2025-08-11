@@ -1,273 +1,275 @@
-# Path2Ivy - AI-Powered College Admissions Platform 🎓
+# TransMedX.AI Website
 
-**Your Journey to Elite Colleges Starts Here**
-
-Path2Ivy is a self-serve, multi-tenant AI platform designed to help high school students from diverse backgrounds navigate elite college admissions by providing personalized, affordable guidance completely free of charge.
-
-![Path2Ivy Hero](https://via.placeholder.com/800x400/6366f1/ffffff?text=Path2Ivy+Demo)
+A modern, mobile-ready website for TransMedX.AI - Ethical translational cancer research platform with dual headquarters in USA & India.
 
 ## 🌟 Features
 
-### MVP Features (Free Tier)
-- **🤖 AI-Powered Daily Action Plans** - Personalized daily tasks tailored to your academic profile
-- **🎯 Smart College Matching** - AI-driven college recommendations based on your stats and preferences  
-- **💰 Scholarship Finder** - Discover financial aid opportunities you qualify for
-- **📊 Progress Tracking** - Visual analytics and achievement system to stay motivated
-- **📝 Essay Helper** - AI-generated topic suggestions and writing guidance
-- **📚 Resource Library** - Curated guides and college prep resources
-- **🗓️ Application Timeline** - Automated deadline tracking and reminders
+### Design & UX
+- **Mobile-First Responsive Design** - Optimized for all screen sizes
+- **Modern UI/UX** - Clean, professional design with smooth animations
+- **Accessibility Compliant** - WCAG guidelines implementation
+- **Touch-Friendly** - Optimized for mobile touch interactions
+- **Cross-Browser Compatible** - Works on all modern browsers
 
-### Monetization Strategy
-- **📱 Non-intrusive banner ads** - Relevant educational content
-- **🏫 Sponsored college spotlights** - Partner institutions featured in recommendations
-- **🏆 Local scholarship highlights** - Community partnerships for scholarship opportunities
-- **💳 Grant opportunity alerts** - Government and foundation funding notifications
+### Technical Features
+- **Semantic HTML5** - Proper document structure and SEO optimization
+- **CSS Grid & Flexbox** - Modern layout techniques
+- **CSS Custom Properties** - Maintainable design system
+- **Intersection Observer API** - Smooth scroll animations
+- **Progressive Enhancement** - Graceful degradation for older browsers
 
-## 🚀 Technology Stack
+### Interactive Elements
+- **Responsive Navigation** - Hamburger menu for mobile devices
+- **Smooth Scrolling** - Seamless navigation between sections
+- **Tab System** - Interactive benefits showcase
+- **Scroll Animations** - Fade-in effects for content sections
+- **Button Ripple Effects** - Material design interactions
+- **Active Link Highlighting** - Visual feedback for current section
 
-### Frontend
-- **Next.js 14** with App Router
-- **TypeScript** for type safety
-- **Tailwind CSS** for styling
-- **Framer Motion** for animations
-- **React Hook Form** with Zod validation
-- **Headless UI** components
+## 🏗️ Project Structure
 
-### Backend
-- **Node.js** with Express.js
-- **TypeScript** throughout
-- **MongoDB** with Mongoose ODM
-- **JWT** authentication
-- **OpenAI API** for AI features (placeholder for demo)
-- **Rate limiting** and security middleware
+```
+/workspace/
+├── index.html          # Main HTML structure
+├── styles.css          # Complete CSS styling
+├── script.js           # Interactive JavaScript
+└── README.md           # Project documentation
+```
 
-### Architecture
-- **RESTful API** design
-- **Multi-tenant** data structure
-- **Responsive design** (mobile-first)
-- **Progressive Web App** capabilities
-- **Real-time updates** with efficient state management
+## 🎨 Design System
 
-## 🛠️ Getting Started
+### Color Palette
+- **Primary**: Blue (#2563eb) to Purple (#7c3aed) gradient
+- **Accent**: Cyan (#06b6d4)
+- **Success**: Green (#10b981)
+- **Neutral**: Carefully crafted gray scale
+- **Backgrounds**: Layered with subtle gradients
+
+### Typography
+- **Font Family**: Inter (Google Fonts)
+- **Responsive Scaling**: Mobile-first font sizing
+- **Weight Variations**: 300-800 for proper hierarchy
+
+### Spacing System
+- **Consistent Scale**: 0.25rem to 6rem progression
+- **Mobile Optimized**: Touch-friendly spacing
+- **Vertical Rhythm**: Harmonious content flow
+
+## 📱 Mobile Optimization
+
+### Responsive Breakpoints
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+
+### Touch Interactions
+- **Minimum Touch Target**: 44px (accessibility compliant)
+- **Swipe Gestures**: Close mobile menu with swipe up
+- **Tap Feedback**: Visual response for all interactive elements
+
+### Performance
+- **Optimized Images**: Lazy loading implementation ready
+- **Efficient Animations**: Hardware acceleration where possible
+- **Minimal JavaScript**: Only essential functionality loaded
+
+## 🧭 Website Sections
+
+### 1. Hero Section
+- Animated background with DNA-inspired patterns
+- Clear value proposition
+- Dual call-to-action buttons
+- Responsive typography scaling
+
+### 2. Key Offerings
+- 6 core service offerings
+- Icon-based visual representation
+- Grid layout adapting to screen size
+- Hover animations for engagement
+
+### 3. Benefits Tab System
+- Interactive tabs for different stakeholders:
+  - Patients
+  - Hospitals
+  - Clinicians
+  - Pharma/Biotech
+  - Academia
+- Keyboard navigation support
+- Smooth content transitions
+
+### 4. Ethics Section
+- 5 core ethical principles
+- Card-based layout
+- Progressive disclosure of information
+- Trust-building visual design
+
+### 5. Call to Action
+- Three distinct action pathways
+- Email integration ready
+- Gradient background for emphasis
+- Mobile-optimized button layout
+
+### 6. Footer
+- Contact information
+- Legal links placeholder
+- Brand reinforcement
+- Responsive grid layout
+
+## ⚡ Performance Features
+
+### Core Web Vitals Optimization
+- **Largest Contentful Paint (LCP)**: Optimized font loading
+- **First Input Delay (FID)**: Efficient event handling
+- **Cumulative Layout Shift (CLS)**: Stable layouts
+
+### Loading Performance
+- **Critical CSS**: Inline styles for above-the-fold content
+- **Font Optimization**: Preconnect to Google Fonts
+- **Throttled Scroll Events**: Performance-conscious event handling
+
+### Accessibility Features
+- **Screen Reader Support**: Proper ARIA labels and announcements
+- **Keyboard Navigation**: Full keyboard accessibility
+- **Focus Management**: Visible focus indicators
+- **Reduced Motion**: Respects user preferences
+- **Color Contrast**: WCAG AA compliant contrast ratios
+
+## 🛠️ Setup & Development
 
 ### Prerequisites
-- Node.js 18+ 
-- MongoDB (local or cloud instance)
-- Git
+- Modern web browser
+- Local web server (optional for development)
 
-### Installation
-
-1. **Clone the repository**
+### Quick Start
+1. Clone or download the project files
+2. Open `index.html` in a web browser
+3. For development, use a local server:
    ```bash
-   git clone <repository-url>
-   cd CollegeCompanion
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve .
+   
+   # Using PHP
+   php -S localhost:8000
    ```
 
-2. **Backend Setup**
-   ```bash
-   cd path2ivy-backend
-   npm install
-   cp development.env .env
-   # Edit .env with your MongoDB URI and API keys
-   npm run dev
-   ```
-   Backend will run on `http://localhost:5000`
+### File Modifications
+- **Content Updates**: Edit `index.html`
+- **Styling Changes**: Modify `styles.css`
+- **Functionality**: Update `script.js`
+- **Configuration**: Adjust CSS custom properties in `:root`
 
-3. **Frontend Setup**
-   ```bash
-   cd path2ivy-frontend
-   npm install
-   cp env.local .env.local
-   npm run dev
-   ```
-   Frontend will run on `http://localhost:3000`
+## 🌐 Browser Support
 
-### 🎮 Demo Account
+### Fully Supported
+- Chrome 80+
+- Firefox 75+
+- Safari 13+
+- Edge 80+
 
-For testing purposes, use these credentials:
-- **Email:** `demo@path2ivy.com`
-- **Password:** `demo123456`
+### Graceful Degradation
+- Internet Explorer 11 (basic functionality)
+- Older mobile browsers
 
-The demo account comes pre-populated with:
-- Complete student profile
-- Sample action plans and tasks
-- College recommendations
-- Progress tracking data
-- Achievement badges
+## 📧 Contact Integration
 
-## 📱 Application Flow
+### Email Links Ready
+The website includes pre-configured email links for:
+- **Partnerships**: `partnerships@transmedx.ai`
+- **Network Joining**: `network@transmedx.ai`
+- **Patient Enrollment**: `patients@transmedx.ai`
+- **General Info**: `info@transmedx.ai`
 
-### 1. Landing Page
-- **Hero section** with compelling value proposition
-- **Feature highlights** showcasing AI capabilities
-- **Success stories** and social proof
-- **Free signup** with clear monetization transparency
+### Form Integration Ready
+The JavaScript includes error handling functions for future form implementations.
 
-### 2. Registration & Onboarding
-- **Quick signup** process (< 2 minutes)
-- **Smart onboarding** flow collecting:
-  - Academic profile (GPA, test scores, activities)
-  - Interests and career goals
-  - College preferences (size, type, location)
-  - Financial considerations
-- **Profile completion** guidance with progress indicators
+## 🔧 Customization Guide
 
-### 3. Dashboard Experience
-- **Personalized welcome** with today's action plan
-- **Progress visualization** with achievement system
-- **College spotlight** featuring matched institutions
-- **Scholarship opportunities** with eligibility scoring
-- **Quick actions** for common tasks
-
-### 4. Core Features
-- **AI Recommendations** - Dynamic action plans updated daily
-- **College Explorer** - Advanced search and comparison tools
-- **Essay Assistant** - Topic generation and writing guidance
-- **Progress Analytics** - Comprehensive tracking and insights
-
-## 🎯 MVP Success Metrics
-
-### User Engagement
-- **Daily Active Users** - Target: 70% of registered users
-- **Task Completion Rate** - Target: 65% daily tasks completed
-- **Session Duration** - Target: 12+ minutes average
-- **Feature Adoption** - Target: 80% use core features
-
-### Educational Impact
-- **College Application Success** - Target: 95% acceptance rate
-- **Scholarship Discoveries** - Target: $2M+ in opportunities found
-- **Essay Completion** - Target: 90% complete required essays
-- **Deadline Adherence** - Target: 98% meet application deadlines
-
-### Business Model
-- **Ad Revenue** - Conservative estimate: $5-15 per user annually
-- **Sponsored Content** - Premium college partnerships
-- **Grant Partnerships** - Local/regional scholarship programs
-- **Premium Upsell** - Advanced features for power users
-
-## 🏗️ Architecture Highlights
-
-### Scalable Design
-- **Modular backend** with service-oriented architecture
-- **Efficient caching** with Redis for frequently accessed data
-- **Database optimization** with proper indexing and aggregation
-- **CDN integration** for static assets and images
-
-### Security & Privacy
-- **JWT-based authentication** with secure token management
-- **Data encryption** at rest and in transit
-- **GDPR/CCPA compliance** with privacy controls
-- **Rate limiting** to prevent abuse
-
-### AI Integration
-- **OpenAI GPT integration** for content generation
-- **Fallback systems** when AI services are unavailable
-- **Personalization algorithms** based on user behavior
-- **Content moderation** for generated recommendations
-
-## 📊 Database Schema
-
-### Users Collection
-```javascript
-{
-  email, password, firstName, lastName,
-  profile: {
-    graduationYear, gpa, testScores, extracurriculars,
-    interests, careerGoals, financialAid, geographicPreferences
-  },
-  preferences: {
-    collegeTypes, majors, preferredSize, maxTuition, targetColleges
-  },
-  progress: {
-    tasksCompleted, totalTasks, lastActivityDate, achievementBadges
-  },
-  subscription: { tier, expiresAt }
+### Color Scheme Updates
+Modify CSS custom properties in `:root` selector:
+```css
+:root {
+    --primary-color: #your-color;
+    --accent-color: #your-accent;
+    /* ... other variables */
 }
 ```
 
-### Colleges Collection
-```javascript
-{
-  name, location: { city, state, region },
-  type, size, admissionData: { acceptanceRate, averageGPA, averageSAT },
-  academics: { majors, ranking, studentFacultyRatio },
-  financials: { tuition, roomAndBoard, averageAid },
-  campusLife: { setting, diversity, athletics },
-  requirements: { essays, recommendations, interviews },
-  isSponsored, sponsorshipTier
-}
-```
+### Content Updates
+1. Update section content in `index.html`
+2. Modify navigation links if adding/removing sections
+3. Update meta tags for SEO optimization
 
-### Action Plans Collection
-```javascript
-{
-  userId, date,
-  tasks: [{ title, description, category, priority, estimatedTime, completed }],
-  insights: { strengths, improvements, recommendations },
-  collegeSpotlight: { collegeId, reason, sponsored },
-  scholarshipOpportunities: [{ name, amount, deadline, eligibilityMatch }]
-}
-```
+### Adding New Sections
+1. Add HTML structure with proper semantic tags
+2. Include appropriate CSS classes
+3. Add navigation link if needed
+4. Update JavaScript for scroll animations
 
-## 🚀 Deployment Strategy
+## 🚀 Deployment
 
-### Development
-- **Local development** with hot reloading
-- **Docker containers** for consistent environments
-- **MongoDB Atlas** for cloud database
-- **Environment variables** for configuration
+### Static Hosting
+This website is ready for deployment on:
+- GitHub Pages
+- Netlify
+- Vercel
+- AWS S3
+- Any static hosting service
 
-### Production
-- **Vercel** for frontend deployment
-- **Railway/Heroku** for backend hosting
-- **MongoDB Atlas** for production database
-- **CloudFlare** for CDN and DDoS protection
+### Pre-Deployment Checklist
+- [ ] Test on multiple devices and browsers
+- [ ] Validate HTML and CSS
+- [ ] Check accessibility with screen readers
+- [ ] Optimize images if added
+- [ ] Update contact information
+- [ ] Configure domain and SSL
 
-### Monitoring
-- **Application monitoring** with Sentry
-- **Performance tracking** with Web Vitals
-- **User analytics** with privacy-focused tools
-- **Error logging** and alerting systems
+## 📈 SEO Optimization
+
+### Built-in SEO Features
+- Semantic HTML structure
+- Meta tags for description and keywords
+- Proper heading hierarchy
+- Alt text ready for images
+- Schema markup ready for implementation
+
+### Recommendations
+- Add Open Graph meta tags for social sharing
+- Implement structured data for healthcare organization
+- Create XML sitemap
+- Configure Google Analytics
+- Set up Google Search Console
 
 ## 🤝 Contributing
 
-We welcome contributions from developers passionate about democratizing education! 
+### Code Style
+- Use consistent indentation (2 spaces)
+- Follow semantic HTML principles
+- Maintain CSS custom property usage
+- Comment complex JavaScript functions
 
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes with tests
-4. Submit a pull request with detailed description
-
-### Code Standards
-- **TypeScript** throughout the codebase
-- **ESLint/Prettier** for code formatting
-- **Jest** for unit testing
-- **Comprehensive documentation** for new features
-
-## 📞 Support & Contact
-
-- **GitHub Issues** - Bug reports and feature requests
-- **Email** - support@path2ivy.com
-- **Documentation** - Comprehensive guides and API docs
-- **Community** - Discord/Slack for developer discussions
+### Testing
+- Test on multiple devices
+- Validate accessibility with tools
+- Check performance with Lighthouse
+- Verify cross-browser compatibility
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is created for TransMedX.AI. All rights reserved.
 
-## 🙏 Acknowledgments
+## 🏥 About TransMedX.AI
 
-- **Open source community** for amazing tools and libraries
-- **Educational equity advocates** for inspiration and guidance
-- **Student testers** for invaluable feedback and insights
-- **College counselors** for domain expertise and validation
+TransMedX.AI combines biospecimens, free genomic/ctDNA testing, real-world clinical data, and AI for ethical translational cancer research. With dual headquarters in USA & India, we're committed to advancing cancer research while maintaining the highest ethical standards.
 
 ---
 
-**Made with ❤️ for students everywhere**
+**For technical support**: `tech@transmedx.ai`  
+**For partnerships**: `partnerships@transmedx.ai`  
+**Website**: [transmedx.ai](https://transmedx.ai)
 
-*Path2Ivy - Democratizing college admissions through AI-powered guidance, one student at a time.*
+Built with ❤️ for advancing cancer research
 
 
 
